@@ -12,6 +12,7 @@ LOGS_FILES=(
         /var/log/httpd # Apache access and error logs directory
         /var/log/lighttpd # Lighttpd access and error logs directory
         /var/log/secure # Authentication log
+        /var/log/faillog # Authentication faile log
         /var/log/utmp # Login records file
         /var/log/wtmp # Login records file
         /var/log/yum.log # Yum command log file
@@ -21,6 +22,9 @@ LOGS_FILES=(
         /Library/Logs/DiagnosticReports # System Reports
         ~/Library/Logs # User Application Logs
         ~/Library/Logs/DiagnosticReports # User Reports
+        /www/server/panel/logs # 宝塔面板访问日志
+        /www/wwwlogs # 宝塔网站日志
+        /www/server/panel/data/default.db # 宝塔操作日志
 )
 
 function isRoot () {
