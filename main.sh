@@ -24,7 +24,6 @@ LOGS_FILES=(
         ~/Library/Logs/DiagnosticReports # User Reports
         /www/server/panel/logs # 宝塔面板访问日志
         /www/wwwlogs # 宝塔网站日志
-        /www/server/panel/data/default.db # 宝塔操作日志
 )
 
 function isRoot () {
